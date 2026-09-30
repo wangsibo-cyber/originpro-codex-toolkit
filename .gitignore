@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+OriginPro_Codex_KB/
+*.zip
+*.log
+*.err.log
+outputs/
+work/
+data/
+*.opju
+*.opj
+.env
+config.local.json
