@@ -6,7 +6,7 @@ import shutil
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--codex-home', type=Path, default=Path(os.environ.get('CODEX_HOME', str(Path.home() / '.codex'))))
+    parser.add_argument('--codex-home', type=Path, default=Path.home() / '.agents')
     args = parser.parse_args()
     source = Path(__file__).resolve().parent / 'skills' / 'python-origin-plotting'
     target = args.codex_home / 'skills' / source.name

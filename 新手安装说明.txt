@@ -1,0 +1,9 @@
+先安装：Codex、已授权的 OriginPro、Windows 64 位 Python 3.11。
+
+1. 将配置 ZIP 全部解压，不要在压缩包内部运行。
+2. 双击【一键安装.bat】，等待安装完成。首次 Python 依赖安装需要联网，但不下载文档。
+3. 双击【导入离线资料.bat】，选择已下载的完整离线资料 ZIP。不需要手动解压资料。
+4. 重启 Codex，打开自己的绘图项目，输入：使用 $originpro-codex-bundle，先检查知识库和 Origin 环境。
+
+资料固定位置：%USERPROFILE%\.agents\skills\originpro-codex-bundle\OriginPro_Codex_KB
+安装成功后不依赖原解压文件夹。没有导入资料时，Skill 已配置，但不能声称离线知识库已准备好。

@@ -1,6 +1,6 @@
-OriginPro + Codex 科研绘图工具包首次公开版。
+v1.1.0 双击配置与离线资料导入版。
 
-下载下面的工具包 ZIP，解压后按 README 安装；不需要 Git。
-包含本地官方资料下载器、Agent 规则、适配后的 MIT Skill、环境检查与安装脚本。
-官方整站快照未捆绑；第三方 Skill 按 MIT 许可保留署名并适配，来源与分发边界见 THIRD_PARTY_NOTICES.md。
-本次未验证全新电脑安装和 Origin 实际绘图；详见 QA_REPORT.md。
+下载 ZIP 后全部解压，双击【一键安装.bat】完成 Skill 与 Python 依赖配置，再双击【导入离线资料.bat】选择已有资料 ZIP。
+不需要输入 PowerShell 命令，不需要手动判断资料解压层级。安装内容固定到用户 Skill 目录，安装成功后可移动或删除原解压目录。
+配置包不含文档，不自动下载文档；依赖安装仍需联网。Python 3.11、OriginPro、Codex 须自行安装。
+已实际检查临时环境安装、资料导入、拒绝覆盖及路径安全；未在全新电脑或 Origin 绘图环境验收。
